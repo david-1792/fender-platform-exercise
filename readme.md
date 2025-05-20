@@ -7,7 +7,7 @@ Hello! :wave:
 My name is [David Jiménez Rodríguez](https://linkedin.com/in/david-jr1792) and this is the code repository for the technical assessment given as part of the recruitment process for the **Software Engineer** position at Fender :guitar:
 
 ## Solution :bulb:
-The solution is made using the **Python** :snake: language, since it is the language that I am most familiar with and the one that was asked for in the assessment. I decided to use **FastAPI** as my web framework, with **Pydantic** to build my data models. 
+The solution is made using the **Python** :snake: language, since it is the language that I am most familiar with. I decided to use **FastAPI** as my web framework, with **Pydantic** to build my data models. 
 
 The solution uses **Amazon DynamoDB**, a **NoSQL** key-value database in a single-table design pattern, to store the objects. A local version of DynamoDB is created and all operations happen inside a table called `fender`.
 
