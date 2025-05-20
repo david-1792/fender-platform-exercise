@@ -20,7 +20,7 @@ Once deployed, the API exposes the following endpoints:
 - `PATCH /api/users/me`
 - `DELETE /api/users/me`
 
-Aside from exposing the API, the project also has a [web UI](http://localhost:8001) for monitoring the database and a Swagger API [documentation page](http://localhost:8080/docs), accessible **once deployed**. These can be used to get more information on the exposed endpoints and the actual data being created.
+Aside from exposing the API, the project also has a web UI for monitoring the database and a Swagger API documentation page, accessible **once deployed**. These can be used to get more information on the exposed endpoints and the actual data being created.
 
 ### Assumptions
 Here are some of the assumptions made on the assigment, from which a lot of the data handling and validation is based off:
@@ -54,7 +54,7 @@ scripts/deploy.sh
 
 This will run the app and expose it on port `8080` of the local machine.
 
-The **API docs** are now accesible at http://localhost:8080/docs
+The database [web UI](http://localhost:8001) and the [API docs](http://localhost:8080/docs) are now reachable.
 
 ### Testing :mag:
 To run the unit/integration code tests, run the following command:
